@@ -10,9 +10,9 @@
 ```javascript
 grunt.loadNpmTasks('grunt-tbf2e');
 ```
-
-[grunt]: https://github.com/cowboy/grunt
-[getting_started]: https://github.com/cowboy/grunt/blob/master/docs/getting_started.md
+## Grunt的使用请参考
+ * [grunt](https://github.com/cowboy/grunt)
+ * [getting_started](https://github.com/cowboy/grunt/blob/master/docs/getting_started.md)
 
 ## 包含的插件
 
