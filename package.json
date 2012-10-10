@@ -1,0 +1,37 @@
+{
+  "name": "grunt-tbf2e",
+  "description": "一个前端的Build工具集合",
+  "version": "0.1.0",
+  "homepage": "https://github.com/neekey/grunt-tbf2e",
+  "author": {
+    "name": "neekey",
+    "email": "ni184775761@gmail.com",
+    "url": "http://blog.neekey.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neekey/grunt-tbf2e.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neekey/grunt-tbf2e/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/neekey/grunt-tbf2e/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "grunt-ksp": "*",
+    "grunt-compass": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-mincss": "*"
+  },
+  "keywords": [
+    "gruntcollection"
+  ]
+}
