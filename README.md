@@ -16,6 +16,19 @@ grunt.loadNpmTasks('grunt-tbf2e');
 
 ## 包含的插件
 
+除了使用grunt的内置组件：
+
+* [concat](/gruntjs/grunt/blob/master/docs/task_concat.md) - Concatenate files.
+* [init](/gruntjs/grunt/blob/master/docs/task_init.md) - Generate project scaffolding from a predefined template.
+* [lint](/gruntjs/grunt/blob/master/docs/task_lint.md) - Validate files with [JSHint][jshint].
+* [min](/gruntjs/grunt/blob/master/docs/task_min.md) - Minify files with [UglifyJS][uglify].
+* [qunit](/gruntjs/grunt/blob/master/docs/task_qunit.md) - Run [QUnit][qunit] unit tests in a headless [PhantomJS][phantom] instance.
+* [server](/gruntjs/grunt/blob/master/docs/task_server.md) - Start a static web server.
+* test - Run unit tests with [nodeunit][nodeunit].
+* watch - Run predefined tasks whenever watched files change.
+
+以外，`tbf2e`提供了以下额外组件：
+
 #### [`copy`](https://github.com/gruntjs/grunt-contrib-copy/)
 复制文件到制定目录.
 
